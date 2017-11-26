@@ -1,0 +1,59 @@
+﻿body {
+}
+
+.article-detail {
+    height: 200px; 
+    overflow: hidden;
+}
+
+.padding{
+    padding: 10px
+}
+
+.like-icon{
+    top:5px;
+    position: relative
+}
+
+.m-top{
+    margin-top:25px !important;
+}
+
+.m-left{
+    margin-left:15px !important;
+}
+
+.add-modal{
+    position: absolute;
+    width: 100% !important;
+    background: #ccc;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width:60%;
+    z-index: 9999;
+    background: rgba(0,0,0,0.6);
+}
+
+.modal-data{
+    position: relative;
+    width: 60%;
+    top: 60px;
+    z-index: 9999;
+    margin: 0 20%;
+    background: rgba(255,255,255,1);
+}
+.text-red{
+    color:#ff0000;
+}
+.p-left{
+    padding-left:10px !important;
+}
+.viewport-height{
+    height:100vh;
+}
+.align-vertical{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
